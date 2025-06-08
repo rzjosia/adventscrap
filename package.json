@@ -1,0 +1,33 @@
+{
+  "name": "adventscrap",
+  "version": "1.0.0",
+  "description": "Extrait automatiquement des chants (hymnes et louanges, JEM, JEM Kids, DLG, ATG) et les formate dans un fichier texte compatible ProPresenter, prêt à l’import. Idéal pour faciliter la projection de chants lors de vos événements.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rzjosia/adventscrap.git"
+  },
+  "keywords": [
+    "propresenter",
+    "scraping"
+  ],
+  "author": "Josia RAZAFINJATOVO",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rzjosia/adventscrap/issues"
+  },
+  "homepage": "https://github.com/rzjosia/adventscrap#readme",
+  "dependencies": {
+    "got": "^14.4.7",
+    "iconv-lite": "^0.6.3",
+    "jschardet": "^3.1.4",
+    "jsdom": "^26.1.0",
+    "p-limit": "^6.2.0",
+    "retry": "^0.13.1"
+  }
+}
